@@ -1,0 +1,44 @@
+* Glitchy: The UI Kit for Making FUI
+
+*NOT READY FOR HUMAN OR COMPUTER USE* 
+
+** Installation
+Use yarn or npm:
+
+#+begin_src sh
+yarn add glitchy
+#+end_src
+** Usage
+*** Running it
+It is a next app so all the typical next things apply. To run it use the dev script:
+
+#+begin_src sh
+yarn dev
+#+end_src
+
+*** Including it in your Projects
+
+The heart of Glitchy is the ThemeProvider component. It wraps up MaterialUI components and Glitchy components with a theme that makes it all Glitchy and awesome. You can get 90% of the way to a cool looking cyberpunk app by just wrapping your Material UI components in the Glitchy theme provider. Use it like this:
+
+#+begin_src javascript
+#+end_src
+*** Glitching
+
+Glitchy comes with a generic Glitch component which can wrap anything and then glitch it:
+
+*** Terminals
+
+The heart of Glitchy is a Terminal component which mimics a CLI terminal but with the extra benefit that you can output JSX and thus take advantage of the entire web platform. It makes for a very FUI experience.
+
+To use a Terminal component you will need;
+
+1. A list of commands
+2. Commands
+
+Commands consist of a name, some params and a React component. Running the command basically just instantiates and outputs the Component to the terminal.
+
+*** Buttons
+
+Glitchy comes with three types of buttons;
+
+1. A glitchy button that looks like this 
